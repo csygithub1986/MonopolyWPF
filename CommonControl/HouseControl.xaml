@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="CommonControl.HouseControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CommonControl"
+             mc:Ignorable="d" Name="uc" DataContext="{Binding House,ElementName=uc}"
+             d:DesignHeight="100" d:DesignWidth="100" >
+    <UserControl.Resources>
+        <local:ArrayMultiConverter x:Key="ArrayMultiConverter"/>
+
+        <Style TargetType="local:HouseControl">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border BorderThickness="5" BorderBrush="{Binding PlayerBelongTo.Color}" Background="#FFC9C8C8">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Name="txtBelong" Text="{Binding PlayerBelongTo.Role.Name}"/>
+                                <TextBlock Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding Level}"/>
+                                <TextBlock Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                    <TextBlock.Text>
+                                        <MultiBinding Converter="{StaticResource ArrayMultiConverter}">
+                                            <Binding Path="Prices" Mode="OneWay"/>
+                                            <Binding Path="Level" Mode="OneWay"/>
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                                <TextBlock Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                    <TextBlock.Text>
+                                        <MultiBinding Converter="{StaticResource ArrayMultiConverter}">
+                                            <Binding Path="RentPrices" Mode="OneWay"/>
+                                            <Binding Path="Level" Mode="OneWay"/>
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+</UserControl>

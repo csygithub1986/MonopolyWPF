@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7b4d5e66-ef66-4282-bbc1-91494c4ccda6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50609/MonopolyServer/MonopolyService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="e7fca546-f7fa-4022-97ae-eb24c3df3ff2" SourceId="1" SourceUrl="http://localhost:50609/MonopolyServer/MonopolyService/?disco" />
+    <MetadataFile FileName="MonopolyService.wsdl" MetadataType="Wsdl" ID="121daf17-236f-4fb8-989d-f105ee305027" SourceId="1" SourceUrl="http://localhost:50609/MonopolyServer/MonopolyService/?wsdl" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="dc971664-97f6-4189-9e93-671bdf89f542" SourceId="1" SourceUrl="http://localhost:50609/MonopolyServer/MonopolyService/?xsd=xsd2" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="da15a375-32f7-481c-b2a9-ed8f22b7b01f" SourceId="1" SourceUrl="http://localhost:50609/MonopolyServer/MonopolyService/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="6ddecdd8-c4b3-4134-8536-f7d1af29c0c9" SourceId="1" SourceUrl="http://localhost:50609/MonopolyServer/MonopolyService/?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
