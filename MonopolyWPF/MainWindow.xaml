@@ -1,13 +1,70 @@
-﻿<Window x:Class="MonopolyWPF.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MonopolyWPF"
-        xmlns:cc="clr-namespace:CommonControl;assembly=CommonControl"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <cc:HouseControl Width="100" Height="100" x:Name="house1"></cc:HouseControl>
+        xmlns:cvt="clr-namespace:MonopolyWPF.Converter"
+        xmlns:cc="clr-namespace:CommonControl;assembly=CommonControl" xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2" x:Class="MonopolyWPF.MainWindow"
+        FontSize="16"
+        mc:Ignorable="d" d:DataContext="{d:DesignInstance {x:Type local:MainWindowVM}}" Loaded="Window_Loaded"
+        x:Name="window"
+        Title="大富翁" d:DesignHeight="900" d:DesignWidth="1600" WindowStartupLocation="CenterScreen" WindowState="Maximized" >
+    <Window.Resources>
+
+        <cvt:SizeConverter x:Key="SizeConverter"/>
+
+        <DataTemplate x:Key="DataTemplate1">
+            <Grid Margin="5">
+                <TextBlock Background="AntiqueWhite" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="{Binding Role.Name}" VerticalAlignment="Top" Width="104" Height="30"/>
+                <TextBlock Background="AntiqueWhite" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="{Binding Location.Index}" VerticalAlignment="Top" Width="104" Height="30" Margin="124,0,0,0"/>
+            </Grid>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid x:Name="mainGrid" VerticalAlignment="Stretch" HorizontalAlignment="Center" Width="{Binding ActualHeight, Converter={StaticResource SizeConverter}, ElementName=mainGrid}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border>
+            <Viewbox>
+                <Canvas x:Name="mainCanvas" Width="1800" Height="1200"  Background="Azure" MouseMove="MainCanvas_MouseMove" MouseDown="MainCanvas_MouseDown">
+                    <!--<Canvas x:Name="mainCanvas" Width="1800" Height="1200"  Background="Azure">-->
+                </Canvas>
+            </Viewbox>
+        </Border>
+
+        <Grid Grid.Column="1" Grid.Row="0"  Background="White">
+            <TextBlock Background="AntiqueWhite" HorizontalAlignment="Left" Margin="80,34,0,0" TextWrapping="Wrap" Text="{Binding GameData.CurrentPlayer.Role.Name}" VerticalAlignment="Top" Width="104" Height="30"/>
+            <TextBlock Background="AntiqueWhite" HorizontalAlignment="Left" Margin="207,34,0,0" TextWrapping="Wrap" Text="{Binding GameData.CurrentPlayer.Location.Index}" VerticalAlignment="Top" Width="104" Height="30"/>
+            <!--<ListView Height="169" Margin="0,85,0,0" VerticalAlignment="Top"  ItemsSource="{Binding GameData.Players}" Style="{DynamicResource ListViewStyle1}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="玩家" DisplayMemberBinding="{Binding Role.Name}"/>
+                        <GridViewColumn Header="现金" DisplayMemberBinding="{Binding Cash}"/>
+                        <GridViewColumn Header="存款" DisplayMemberBinding="{Binding Deposit}"/>
+                        <GridViewColumn Header="卡片数" DisplayMemberBinding="{Binding CardAmount}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>-->
+            
+            
+
+            <Button Content="选卡片" Click="Buttoncard_Click" Margin="110,314,0,0" HorizontalAlignment="Left" Width="99" Height="42" VerticalAlignment="Top"/>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.ColumnSpan="2"  Background="White">
+            <Button Content="move" Click="Buttonmove_Click" Margin="0,28,30,0" HorizontalAlignment="Right" Width="99" Height="42" VerticalAlignment="Top"/>
+            <Button Click="Button_Click" Content="导出手绘的地图" HorizontalAlignment="Left" Margin="22,28,0,0" VerticalAlignment="Top" Width="133" Height="42"/>
+            <Button Click="ButtonImport_Click" Content="导入地图" HorizontalAlignment="Left" Margin="256,28,0,0" VerticalAlignment="Top" Width="133" Height="42"/>
+            <Button Click="ButtonExit_Click" Content="退出" HorizontalAlignment="Left" Margin="432,28,0,0" VerticalAlignment="Top" Width="133" Height="42"/>
+        </Grid>
+
     </Grid>
 </Window>

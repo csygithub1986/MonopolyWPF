@@ -34,10 +34,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationFramework.Aero2" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>..\ExtendedDll\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -56,6 +59,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Converters.cs" />
+    <Compile Include="MainWindowVM.cs" />
+    <Compile Include="View\ChooseCardDialog.xaml.cs">
+      <DependentUpon>ChooseCardDialog.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -64,15 +72,19 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Connected Services\MonopolyServiceReference\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
+    <Compile Include="Enums.cs" />
+    <Compile Include="GameLogic.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="SystemStaticData.cs" />
+    <Compile Include="GameData.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\ChooseCardDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -92,19 +104,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="Connected Services\MonopolyServiceReference\item.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\MonopolyServiceReference\item1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\MonopolyServiceReference\item2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\MonopolyServiceReference\MonopolyService.wsdl" />
-    <None Include="Connected Services\MonopolyServiceReference\MonopolyWPF.MonopolyServiceReference.CompositeType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -112,27 +111,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\MonopolyServiceReference\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\MonopolyServiceReference\item.disco" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\MonopolyServiceReference\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\MonopolyServiceReference\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\MonopolyServiceReference\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CommonControl\CommonControl.csproj">
@@ -143,10 +121,15 @@
       <Project>{32e1192b-5e7c-4140-ad1a-3ebcf59d5638}</Project>
       <Name>CommonStyle</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MapEditor\MapEditor.csproj">
+      <Project>{21699076-a140-479e-89ba-6f39b11a1dd8}</Project>
+      <Name>MapEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{cd81efb2-1eea-4c8c-ab01-8a5640268b44}</Project>
       <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

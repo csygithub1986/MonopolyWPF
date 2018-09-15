@@ -31,17 +31,51 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ChainStore1.png" />
+    <Resource Include="Images\ChainStore2.png" />
+    <Resource Include="Images\ChainStore3.png" />
+    <Resource Include="Images\ChainStore4.png" />
+    <Resource Include="Images\ChainStore5.png" />
+    <Resource Include="Images\GasStation.png" />
+    <Resource Include="Images\Hotel1.png" />
+    <Resource Include="Images\Hotel2.png" />
+    <Resource Include="Images\Hotel3.png" />
+    <Resource Include="Images\Hotel4.png" />
+    <Resource Include="Images\Hotel5.png" />
+    <Resource Include="Images\Institute1.png" />
+    <Resource Include="Images\Institute2.png" />
+    <Resource Include="Images\Institute3.png" />
+    <Resource Include="Images\Institute4.png" />
+    <Resource Include="Images\Institute5.png" />
+    <Resource Include="Images\Park.png" />
+    <Resource Include="Images\Residence1.png" />
+    <Resource Include="Images\Residence2.png" />
+    <Resource Include="Images\Residence3.png" />
+    <Resource Include="Images\Residence4.png" />
+    <Resource Include="Images\Residence5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Styles\Image.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

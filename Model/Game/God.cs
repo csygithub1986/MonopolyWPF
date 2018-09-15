@@ -6,9 +6,17 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public class God
+    public class God:ModelBase
     {
-        public GodType GodType { get; set; }
-        public int Days { get; set; }
+        public GodType GodType { get { return _GodType; } set { if (_GodType != value) { _GodType = value; NotifyPropertyChanged(); } } }
+        private GodType _GodType;
+
+        public int DaysRemain { get { return _DaysRemain; } set { if (_DaysRemain != value) { _DaysRemain = value; NotifyPropertyChanged(); } } }
+        private int _DaysRemain;
+
+        public God()
+        {
+            DaysRemain = 7;
+        }
     }
 }

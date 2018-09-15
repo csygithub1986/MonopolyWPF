@@ -39,20 +39,34 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command\CommandBase.cs" />
+    <Compile Include="Game\Car.cs" />
+    <Compile Include="Game\IPlayer.cs" />
+    <Compile Include="Game\TimeBomb.cs" />
     <Compile Include="Game\Card.cs" />
+    <Compile Include="Game\Map.cs" />
+    <Compile Include="Game\RoadInfo.cs" />
     <Compile Include="Game\Role.cs" />
     <Compile Include="Game\Enums.cs" />
     <Compile Include="Game\God.cs" />
-    <Compile Include="Game\Shop.cs" />
-    <Compile Include="Game\House.cs" />
-    <Compile Include="Game\LandBase.cs" />
     <Compile Include="Game\Location.cs" />
     <Compile Include="Game\Player.cs" />
     <Compile Include="ModelBase.cs" />
     <Compile Include="Server\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="地产\ChainStore.cs" />
+    <Compile Include="地产\Hotel.cs" />
+    <Compile Include="地产\Institute.cs" />
+    <Compile Include="地产\GasStation.cs" />
+    <Compile Include="地产\Park.cs" />
+    <Compile Include="地产\CommercialAsset.cs" />
+    <Compile Include="地产\ResidentArea.cs" />
+    <Compile Include="地产\Property.cs" />
+    <Compile Include="地产\Resident.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

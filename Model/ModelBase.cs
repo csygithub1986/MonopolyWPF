@@ -16,21 +16,14 @@ namespace Model
         }
 
         #region 保护函数
+        [field: NonSerialized]
         public event PropertyChangedEventHandler PropertyChanged;
 
-        /// <summary>
-        /// 引发 PropertyChanged 事件。
-        /// </summary>
-        /// <param name="e">事件数据。</param>
-        protected void OnPropertyChanged(PropertyChangedEventArgs e)
-        {
-            PropertyChanged?.Invoke(this, e);
-        }
         /// <summary>
         /// 属性更改事件
         /// </summary>
         /// <param name="propertyName"></param>
-        protected void OnNotifyPropertyChanged(string propertyName)
+        protected virtual void NotifyPropertyChanged([System.Runtime.CompilerServices.CallerMemberName] string propertyName = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }

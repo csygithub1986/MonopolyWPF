@@ -1,0 +1,68 @@
+<Canvas Width="1386" Height="788" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:cc="clr-namespace:CommonControl;assembly=CommonControl" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas.Background>
+    <ImageBrush ImageSource="pack://application:,,,/MapEditor;component/background.jpg" Stretch="UniformToFill" />
+  </Canvas.Background>
+  <cc:LocationControl LocationIndex="1" ControlDirection="Middle" Canvas.Left="911" Canvas.Top="225" />
+  <cc:LocationControl LocationIndex="2" ControlDirection="LeftUp" Canvas.Left="1005" Canvas.Top="273" />
+  <cc:LocationControl LocationIndex="3" ControlDirection="LeftUp" Canvas.Left="1109" Canvas.Top="326" />
+  <cc:LocationControl LocationIndex="4" ControlDirection="LeftUp" Canvas.Left="1213" Canvas.Top="379" />
+  <cc:LocationControl LocationIndex="5" ControlDirection="LeftUp" Canvas.Left="1317" Canvas.Top="432" />
+  <cc:LocationControl LocationIndex="6" ControlDirection="LeftUp" Canvas.Left="1421" Canvas.Top="485" />
+  <cc:LocationControl LocationIndex="7" ControlDirection="LeftUp" Canvas.Left="1525" Canvas.Top="538" />
+  <cc:LocationControl LocationIndex="8" ControlDirection="LeftUp" Canvas.Left="1629" Canvas.Top="591" />
+  <cc:LocationControl LocationIndex="9" ControlDirection="LeftUp" Canvas.Left="1731" Canvas.Top="643" />
+  <cc:LocationControl LocationIndex="10" ControlDirection="Middle" Canvas.Left="1824" Canvas.Top="690" />
+  <cc:LocationControl LocationIndex="11" ControlDirection="Middle" Canvas.Left="1907" Canvas.Top="733" />
+  <cc:LocationControl LocationIndex="12" ControlDirection="Middle" Canvas.Left="1824" Canvas.Top="776" />
+  <cc:LocationControl LocationIndex="13" ControlDirection="RightUp" Canvas.Left="1728" Canvas.Top="824" />
+  <cc:LocationControl LocationIndex="14" ControlDirection="RightUp" Canvas.Left="1623" Canvas.Top="877" />
+  <cc:LocationControl LocationIndex="15" ControlDirection="RightUp" Canvas.Left="1518" Canvas.Top="930" />
+  <cc:LocationControl LocationIndex="16" ControlDirection="RightUp" Canvas.Left="1414" Canvas.Top="983" />
+  <cc:LocationControl LocationIndex="17" ControlDirection="RightUp" Canvas.Left="1310" Canvas.Top="1036" />
+  <cc:LocationControl LocationIndex="18" ControlDirection="RightUp" Canvas.Left="1206" Canvas.Top="1089" />
+  <cc:LocationControl LocationIndex="19" ControlDirection="RightUp" Canvas.Left="1102" Canvas.Top="1142" />
+  <cc:LocationControl LocationIndex="20" ControlDirection="RightUp" Canvas.Left="998" Canvas.Top="1196" />
+  <cc:LocationControl LocationIndex="21" ControlDirection="Middle" Canvas.Left="905" Canvas.Top="1244" />
+  <cc:LocationControl LocationIndex="22" ControlDirection="LeftUp" Canvas.Left="811" Canvas.Top="1196" />
+  <cc:LocationControl LocationIndex="23" ControlDirection="LeftUp" Canvas.Left="713" Canvas.Top="1146" />
+  <cc:LocationControl LocationIndex="24" ControlDirection="LeftUp" Canvas.Left="609" Canvas.Top="1092" />
+  <cc:LocationControl LocationIndex="25" ControlDirection="LeftUp" Canvas.Left="505" Canvas.Top="1039" />
+  <cc:LocationControl LocationIndex="26" ControlDirection="Middle" Canvas.Left="412" Canvas.Top="991" />
+  <cc:LocationControl LocationIndex="27" ControlDirection="RightUp" Canvas.Left="505" Canvas.Top="943" />
+  <cc:LocationControl LocationIndex="28" ControlDirection="RightUp" Canvas.Left="609" Canvas.Top="889" />
+  <cc:LocationControl LocationIndex="29" ControlDirection="RightUp" Canvas.Left="713" Canvas.Top="836" />
+  <cc:LocationControl LocationIndex="30" ControlDirection="RightUp" Canvas.Left="817" Canvas.Top="783" />
+  <cc:LocationControl LocationIndex="31" ControlDirection="Middle" Canvas.Left="910" Canvas.Top="735" />
+  <cc:LocationControl LocationIndex="32" ControlDirection="LeftUp" Canvas.Left="817" Canvas.Top="688" />
+  <cc:LocationControl LocationIndex="33" ControlDirection="LeftUp" Canvas.Left="713" Canvas.Top="635" />
+  <cc:LocationControl LocationIndex="34" ControlDirection="LeftUp" Canvas.Left="609" Canvas.Top="582" />
+  <cc:LocationControl LocationIndex="35" ControlDirection="LeftUp" Canvas.Left="505" Canvas.Top="529" />
+  <cc:LocationControl LocationIndex="36" ControlDirection="Middle" Canvas.Left="412" Canvas.Top="480" />
+  <cc:LocationControl LocationIndex="37" ControlDirection="RightUp" Canvas.Left="505" Canvas.Top="432" />
+  <cc:LocationControl LocationIndex="38" ControlDirection="RightUp" Canvas.Left="609" Canvas.Top="379" />
+  <cc:LocationControl LocationIndex="39" ControlDirection="RightUp" Canvas.Left="713" Canvas.Top="326" />
+  <cc:LocationControl LocationIndex="40" ControlDirection="RightUp" Canvas.Left="817" Canvas.Top="273" />
+  <cc:CommercialAssetControl MouseDownCommand="{x:Null}" Canvas.Left="475" Canvas.Top="179" />
+  <cc:CommercialAssetControl MouseDownCommand="{x:Null}" Canvas.Left="1385" Canvas.Top="727" />
+  <cc:CommercialAssetControl MouseDownCommand="{x:Null}" Canvas.Left="658" Canvas.Top="993" />
+  <cc:ResidenceControl Canvas.Left="1053" Canvas.Top="225" />
+  <cc:ResidenceControl Canvas.Left="1156" Canvas.Top="277" />
+  <cc:ResidenceControl Canvas.Left="1260" Canvas.Top="332" />
+  <cc:ResidenceControl Canvas.Left="1364" Canvas.Top="387" />
+  <cc:ResidenceControl Canvas.Left="467" Canvas.Top="333" />
+  <cc:ResidenceControl Canvas.Left="365" Canvas.Top="387" />
+  <cc:ResidenceControl Canvas.Left="1571" Canvas.Top="491" />
+  <cc:ResidenceControl Canvas.Left="1678" Canvas.Top="544" />
+  <cc:ResidenceControl Canvas.Left="1787" Canvas.Top="599" />
+  <cc:ResidenceControl Canvas.Left="1376" Canvas.Top="885" />
+  <cc:ResidenceControl Canvas.Left="1272" Canvas.Top="938" />
+  <cc:ResidenceControl Canvas.Left="1170" Canvas.Top="990" />
+  <cc:ResidenceControl Canvas.Left="1068" Canvas.Top="1041" />
+  <cc:ResidenceControl Canvas.Left="963" Canvas.Top="1094" />
+  <cc:ResidenceControl Canvas.Left="658" Canvas.Top="536" />
+  <cc:ResidenceControl Canvas.Left="762" Canvas.Top="590" />
+  <cc:ResidenceControl Canvas.Left="867" Canvas.Top="642" />
+  <cc:ResidenceControl Canvas.Left="470" Canvas.Top="843" />
+  <cc:ResidenceControl Canvas.Left="366" Canvas.Top="898" />
+  <cc:ResidenceControl Canvas.Left="576" Canvas.Top="789" />
+</Canvas>

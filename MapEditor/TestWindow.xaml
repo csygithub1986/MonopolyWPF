@@ -1,0 +1,23 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MapEditor"
+        xmlns:conmCtrl="clr-namespace:CommonControl;assembly=CommonControl" 
+        x:Class="MapEditor.TestWindow" Loaded="Window_Loaded"
+        mc:Ignorable="d"
+        Title="Map1Window" Width="2400" Height="1500">
+        
+    <Grid Name="grid">
+        <!--<Grid.Background>
+            <ImageBrush ImageSource="background.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>-->
+        <conmCtrl:LocationControl HorizontalAlignment="Left" Margin="817,273,0,0" VerticalAlignment="Top" ControlDirection="RightUp" LocationIndex="40"/>
+        <conmCtrl:ResidentControl HorizontalAlignment="Left" Margin="1053,225,0,0" VerticalAlignment="Top"/>
+        <conmCtrl:CommercialAssetControl HorizontalAlignment="Left" Margin="475,179,0,0" VerticalAlignment="Top"/>
+
+
+
+    </Grid>
+</Window>

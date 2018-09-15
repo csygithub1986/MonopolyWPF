@@ -1,0 +1,2978 @@
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:cc="clr-namespace:CommonControl;assembly=CommonControl" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <cc:LocationControl ControlDirection="Middle" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="911" Canvas.Top="225">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="1" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="2" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1005" Canvas.Top="273">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="2" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="3" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1109" Canvas.Top="326">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="3" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="4" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1213" Canvas.Top="379">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="4" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="5" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1317" Canvas.Top="432">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="5" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="6" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1421" Canvas.Top="485">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="6" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="7" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1525" Canvas.Top="538">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="7" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="8" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1629" Canvas.Top="591">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="8" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="9" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1731" Canvas.Top="643">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="9" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="10" ControlDirection="Middle" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1824" Canvas.Top="690">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="10" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="11" ControlDirection="Middle" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1907" Canvas.Top="733">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="11" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="12" ControlDirection="Middle" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1824" Canvas.Top="776">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="12" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="13" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1728" Canvas.Top="824">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="13" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="14" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1623" Canvas.Top="877">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="14" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="15" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1518" Canvas.Top="930">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="15" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="16" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1414" Canvas.Top="983">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="16" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="17" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1310" Canvas.Top="1036">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="17" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="18" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1206" Canvas.Top="1089">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="18" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="19" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="1102" Canvas.Top="1142">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="19" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="20" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="998" Canvas.Top="1196">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="20" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="21" ControlDirection="Middle" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="905" Canvas.Top="1244">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="21" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="22" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="811" Canvas.Top="1196">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="22" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="23" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="713" Canvas.Top="1146">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="23" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="24" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="609" Canvas.Top="1092">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="24" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="25" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="505" Canvas.Top="1039">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="25" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="26" ControlDirection="Middle" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="412" Canvas.Top="991">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="26" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="27" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="505" Canvas.Top="943">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="27" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="28" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="609" Canvas.Top="889">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="28" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="29" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="713" Canvas.Top="836">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="29" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="30" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="817" Canvas.Top="783">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="30" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="31" ControlDirection="Middle" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="910" Canvas.Top="735">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="31" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="32" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="817" Canvas.Top="688">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="32" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="33" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="713" Canvas.Top="635">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="33" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="34" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="609" Canvas.Top="582">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="34" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="35" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="505" Canvas.Top="529">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="35" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="36" ControlDirection="Middle" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="412" Canvas.Top="480">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="36" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="37" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="505" Canvas.Top="432">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="37" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="38" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="609" Canvas.Top="379">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="38" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="39" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="713" Canvas.Top="326">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="39" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:LocationControl LocationIndex="40" ControlDirection="RightUp" BorderBrush="#FF808080" BorderThickness="2,2,2,2" Name="uc" Width="110" Height="110" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Canvas.Left="817" Canvas.Top="273">
+        <cc:LocationControl.Style>
+            <Style TargetType="UserControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="RightUp">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=ControlDirection, ElementName=uc}" Value="Middle">
+                        <Setter Property="UIElement.RenderTransform">
+                            <Setter.Value>
+                                <TransformGroup>
+                                    <TransformGroup.Children>
+                                        <ScaleTransform ScaleX="0.8" />
+                                        <ScaleTransform ScaleY="0.8" />
+                                        <SkewTransform AngleX="-18" AngleY="-18" />
+                                        <RotateTransform Angle="45" />
+                                        <TranslateTransform />
+                                    </TransformGroup.Children>
+                                </TransformGroup>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+                <Style.Resources>
+                    <ResourceDictionary />
+                </Style.Resources>
+                <Setter Property="UIElement.RenderTransform">
+                    <Setter.Value>
+                        <TransformGroup>
+                            <TransformGroup.Children>
+                                <ScaleTransform ScaleX="0.8" />
+                                <SkewTransform AngleX="18" AngleY="18" />
+                                <RotateTransform Angle="-45" />
+                            </TransformGroup.Children>
+                        </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </cc:LocationControl.Style>
+        <Grid>
+            <Grid>
+                <Ellipse Fill="#FFFF0000" Margin="3,3,3,3" />
+                <TextBlock Text="50" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <TextBlock Text="40" FontWeight="Bold" FontSize="50" Foreground="#FF228B22" Visibility="Visible" />
+        </Grid>
+    </cc:LocationControl>
+    <cc:CommercialAssetControl Name="uc" Width="400" Height="204" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="475" Canvas.Top="179">
+        <cc:CommercialAssetControl.Resources>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        </cc:CommercialAssetControl.Resources>
+        <Grid>
+            <Border BorderThickness="10,10,10,10" CornerRadius="5,5,5,5" BorderBrush="#FFFFFFFF" Name="landBorder" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+                <Border BorderThickness="15,15,15,15" CornerRadius="5,5,5,5" BorderBrush="#FFFFFF00" Margin="-12,-12,-12,-12" Opacity="0.6" Visibility="Collapsed" />
+            </Border>
+            <Image Name="MyImage" Width="80" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible" IsHitTestVisible="False">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-38" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:CommercialAssetControl>
+    <cc:CommercialAssetControl Name="uc" Width="400" Height="204" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1385" Canvas.Top="727">
+        <cc:CommercialAssetControl.Resources>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        </cc:CommercialAssetControl.Resources>
+        <Grid>
+            <Border BorderThickness="10,10,10,10" CornerRadius="5,5,5,5" BorderBrush="#FFFFFFFF" Name="landBorder" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+                <Border BorderThickness="15,15,15,15" CornerRadius="5,5,5,5" BorderBrush="#FFFFFF00" Margin="-12,-12,-12,-12" Opacity="0.6" Visibility="Collapsed" />
+            </Border>
+            <Image Name="MyImage" Width="80" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible" IsHitTestVisible="False">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-38" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:CommercialAssetControl>
+    <cc:CommercialAssetControl Name="uc" Width="400" Height="204" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="658" Canvas.Top="993">
+        <cc:CommercialAssetControl.Resources>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        </cc:CommercialAssetControl.Resources>
+        <Grid>
+            <Border BorderThickness="10,10,10,10" CornerRadius="5,5,5,5" BorderBrush="#FFFFFFFF" Name="landBorder" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+                <Border BorderThickness="15,15,15,15" CornerRadius="5,5,5,5" BorderBrush="#FFFFFF00" Margin="-12,-12,-12,-12" Opacity="0.6" Visibility="Collapsed" />
+            </Border>
+            <Image Name="MyImage" Width="80" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible" IsHitTestVisible="False">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-38" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:CommercialAssetControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1053" Canvas.Top="225">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1156" Canvas.Top="277">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1260" Canvas.Top="332">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1364" Canvas.Top="387">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="467" Canvas.Top="333">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="365" Canvas.Top="387">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1571" Canvas.Top="491">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1678" Canvas.Top="544">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1787" Canvas.Top="599">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1376" Canvas.Top="885">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1272" Canvas.Top="938">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1170" Canvas.Top="990">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1068" Canvas.Top="1041">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="963" Canvas.Top="1094">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="658" Canvas.Top="536">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="762" Canvas.Top="590">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="867" Canvas.Top="642">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="470" Canvas.Top="843">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="366" Canvas.Top="898">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+    <cc:ResidentControl Name="uc" Width="200" Height="102" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="576" Canvas.Top="789">
+        <Grid>
+            <Border BorderThickness="10,10,10,10" BorderBrush="#FFFFFFFF" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.LayoutTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform />
+                            <SkewTransform AngleX="-18" AngleY="-18" />
+                            <RotateTransform Angle="45" />
+                            <TranslateTransform />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Border.LayoutTransform>
+            </Border>
+            <Image Width="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,1" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <ScaleTransform ScaleX="3" ScaleY="3" />
+                            <SkewTransform />
+                            <RotateTransform />
+                            <TranslateTransform Y="-19" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </cc:ResidentControl>
+</Canvas>

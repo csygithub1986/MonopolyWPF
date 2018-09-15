@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+                    xmlns:local="clr-namespace:CommonControl"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  >
+    <ResourceDictionary.MergedDictionaries>
+        <!--如果用Themes/Generic默认样式，这里一定要加/CommonControl;component/Themes/，如果手动加样式目录，则不用。坑-->
+        <ResourceDictionary Source="/CommonControl;component/Themes/LocationControlStyle.xaml"/>
+        <ResourceDictionary Source="/CommonControl;component/Themes/CommercialAssetControlStyle.xaml"/>
+        <ResourceDictionary Source="/CommonControl;component/Themes/ResidenceControlStyle.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
